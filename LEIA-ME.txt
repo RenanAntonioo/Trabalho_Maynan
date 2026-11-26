@@ -1,0 +1,22 @@
+TAMAR FIMES — React Native / JavaScript
+
+Requisitos: Node.js compatível com o SDK Expo da base do professor, Android Studio, Android SDK, JDK compatível e emulador ou celular com depuração USB.
+1. Extraia o ZIP e abra a pasta TamarFimes no VS Code.
+2. No terminal, execute npm ci.
+3. Execute npx expo prebuild --platform android.
+4. Inicie um emulador no Android Studio ou conecte um celular com depuração USB.
+5. Execute npm run android (compila e instala o aplicativo nativo, sem Expo Go).
+6. Se necessário, abra a pasta android gerada no Android Studio para trabalhar com o projeto Gradle.
+
+As dependências foram preservadas da base enviada. Caso npm ci falhe por versões indisponíveis ou incompatíveis, será necessário ajustar as versões para um SDK Expo disponível e compatível; não foi possível validar a instalação neste ambiente.
+
+Estrutura: App.js (rotas Home, P1 a P10, Resultado), perguntas.js (dados), janelas/ (telas), css/estilo.js (estilos).
+A tela Pergunta é reutilizada nas dez rotas. Cada resposta é bloqueada imediatamente, e a pontuação acumulada é encaminhada por parâmetros. O avanço só é liberado após responder. O resultado contém o gabarito e permite reiniciar.
+
+Teste manual sugerido: responder todas corretamente (10/10), todas incorretamente (0/10), testar uma tentativa mista, tentar avançar sem responder, tocar repetidamente nas opções e no avanço, sair e reiniciar. O projeto não foi compilado em Android neste ambiente.
+
+ATUALIZAÇÃO TAMAR FIMES: pasta TamarFimes. A tela Jogador exige nome não vazio. Cada partida possui ID único; nome e pontuação seguem por parâmetros. Ao concluir, historico.js grava o resultado em JSON no diretório persistente do aplicativo usando expo-file-system. Ranking apresenta todas as partidas em ordem decrescente de pontuação. Os dados permanecem após fechar e reabrir o aplicativo, mas podem ser removidos ao desinstalar ou limpar os dados. Teste adicional: concluir uma partida, fechar/reabrir, abrir ranking, jogar com outro nome e conferir ambas as pontuações. Não foi compilado neste ambiente.
+
+TESTE NO NAVEGADOR
+Execute npm install e npx expo start --web.
+A versão web utiliza historico.web.js (localStorage); a nativa utiliza historico.js.

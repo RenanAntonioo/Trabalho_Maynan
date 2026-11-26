@@ -1,0 +1,12 @@
+export default [
+ {categoria:'CLÁSSICOS',icone:'ship', pergunta:'Quem dirigiu o filme Titanic (1997)?',opcoes:['Steven Spielberg','James Cameron','Christopher Nolan','Peter Jackson'],correta:1,curiosidade:'James Cameron também dirigiu Avatar.'},
+ {categoria:'ANIMAÇÃO',icone:'star',pergunta:'Qual é o nome do cowboy de Toy Story?',opcoes:['Buzz','Rex','Andy','Woody'],correta:3,curiosidade:'Woody é um dos protagonistas da franquia desde 1995.'},
+ {categoria:'FANTASIA',icone:'magic',pergunta:'Em Harry Potter, qual é a escola de magia frequentada pelo protagonista?',opcoes:['Hogwarts','Beauxbatons','Durmstrang','Ilvermorny'],correta:0,curiosidade:'Hogwarts é dividida em quatro casas.'},
+ {categoria:'FICÇÃO CIENTÍFICA',icone:'globe',pergunta:'Em qual mundo fictício se passa grande parte de Avatar?',opcoes:['Tatooine','Arrakis','Pandora','Krypton'],correta:2,curiosidade:'Pandora é, mais precisamente, uma lua habitável.'},
+ {categoria:'SUPER-HERÓIS',icone:'bolt',pergunta:'Qual personagem é conhecido como o Homem de Ferro?',opcoes:['Bruce Wayne','Tony Stark','Steve Rogers','Peter Parker'],correta:1,curiosidade:'O primeiro filme do Homem de Ferro foi lançado em 2008.'},
+ {categoria:'AVENTURA',icone:'compass',pergunta:'Qual objeto Frodo precisa destruir em O Senhor dos Anéis?',opcoes:['Uma espada','Uma coroa','Um cajado','O Um Anel'],correta:3,curiosidade:'O Um Anel deve ser destruído na Montanha da Perdição.'},
+ {categoria:'ANIMAÇÃO',icone:'paw',pergunta:'Em O Rei Leão, quem é o pai de Simba?',opcoes:['Mufasa','Scar','Timão','Pumba'],correta:0,curiosidade:'Mufasa governa as Terras do Reino no início do filme.'},
+ {categoria:'FICÇÃO CIENTÍFICA',icone:'clock-o',pergunta:'Qual carro é transformado em máquina do tempo em De Volta para o Futuro?',opcoes:['Mustang','Camaro','DeLorean','Corvette'],correta:2,curiosidade:'O DeLorean DMC-12 ficou famoso por suas portas que abrem para cima.'},
+ {categoria:'CINEMA BRASILEIRO',icone:'film',pergunta:'Quem interpretou João Grilo no filme O Auto da Compadecida (2000)?',opcoes:['Selton Mello','Matheus Nachtergaele','Lázaro Ramos','Wagner Moura'],correta:1,curiosidade:'O filme adapta a obra teatral de Ariano Suassuna.'},
+ {categoria:'SUSPENSE',icone:'music',pergunta:'Qual compositor criou a trilha sonora original de Tubarão (1975)?',opcoes:['Hans Zimmer','Ennio Morricone','Howard Shore','John Williams'],correta:3,curiosidade:'John Williams ganhou um Oscar pela trilha de Tubarão.'}
+];

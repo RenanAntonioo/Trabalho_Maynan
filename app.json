@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Tamar Fimes",
+    "slug": "tamar-fimes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.tamarfimes.quiz"
+    },
+    "ios": {
+      "bundleIdentifier": "com.tamarfimes.quiz",
+      "supportsTablet": true
+    }
+  }
+}
